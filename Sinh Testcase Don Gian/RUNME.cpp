@@ -4,8 +4,8 @@
 int main()
 {
     srand(24022007);
-    int testnum = 100;
-    string prob_name = "testcase";
+    int testnum = 50;
+    string prob_name = "A";
 
     create_all_and_compile(prob_name, testnum);
     for(int i = 1; i <= testnum; i ++)

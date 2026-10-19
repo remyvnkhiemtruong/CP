@@ -65,6 +65,8 @@ Generated\ Files/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 *.trx
+*.txt
+*.exe
 
 # NUnit
 *.VisualState.xml
