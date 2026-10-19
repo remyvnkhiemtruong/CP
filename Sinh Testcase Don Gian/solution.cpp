@@ -13,9 +13,9 @@ signed main(void) {
     ios_base::sync_with_stdio(false);
     cin.tie(0);
     cout.tie(0);
-    if(fopen(TASK".INP", "r")) {
-        freopen(TASK".INP", "r", stdin);
-        freopen(TASK".OUT", "w", stdout);
+    if(fopen("input.txt", "r")) {
+        freopen("input.txt", "r", stdin);
+        freopen("output.txt", "w", stdout);
         freopen(TASK".ERR", "w", stderr);
     }
     
