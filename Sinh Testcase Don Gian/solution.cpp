@@ -1,12 +1,26 @@
-#include<bits/stdc++.h>
+/* RemyVN */
+#include <bits/stdc++.h>
+#define ll long long 
+#define int long long
+#define endl '\n'
+#define TASK ""
 using namespace std;
 
-int main()
-{
-    freopen ("input.txt", "r", stdin);
-    freopen ("output.txt", "w", stdout);
+constexpr int MOD = 1e9 + 7;
+constexpr int SIZE = 1e6 + 10;
 
-    ios_base :: sync_with_stdio (false);
-    cin.tie (NULL);
-    cout.tie (NULL);
+signed main(void) {
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
+    if(fopen(TASK".INP", "r")) {
+        freopen(TASK".INP", "r", stdin);
+        freopen(TASK".OUT", "w", stdout);
+        freopen(TASK".ERR", "w", stderr);
+    }
+    
+    cerr << endl << "Running time: " << (1.0 * clock()) / CLOCKS_PER_SEC << endl;
+    return (0 ^ 0);
 }
+
+/* Chờ em tới khi nào ??? */
